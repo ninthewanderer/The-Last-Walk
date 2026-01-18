@@ -6,10 +6,10 @@
 
 <meta charset="UTF-8">
 
-<title>Wake up.</title>
+<title>The Last Walk</title>
 
 <script type="text/bitsyGameData" id="exportedGameData">
-Wake up.
+The Last Walk
 
 # BITSY VERSION 8.14
 
@@ -25,12 +25,6 @@ PAL 0
 255,255,255
 NAME p1
 
-PAL 1
-0,0,0
-239,230,69
-0,65,255
-NAME p2
-
 ROOM 0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e
@@ -40,17 +34,67 @@ i,0,0,d,0,0,0,0,0,0,0,0,0,h,i,0
 0,0,0,f,0,b,0,0,b,0,0,b,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,g,j,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,k,k,k,k,k,k,k,k,k,k,k,k,k
+0,g,j,k,k,k,k,k,k,k,k,k,k,k,k,k
 0,h,i,0,0,0,0,0,0,0,0,0,0,c,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,d,0,0
 c,0,0,0,0,b,0,0,b,0,0,b,0,f,0,g
 d,0,0,0,0,0,0,0,0,0,0,0,0,0,0,h
 f,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e
-NAME example room
+NAME graveyard 1
+EXT 15,8 1 0,8
+EXT 15,9 1 0,9
 PAL 0
-TUNE 2
+TUNE 3
+
+ROOM 1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,c,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,d,0,0,b,0,0,b,0,0,b,0,0,b,0,0
+0,f,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,g,j
+k,k,k,k,k,k,k,k,k,k,0,0,0,0,h,i
+k,k,k,k,k,k,k,k,k,k,k,0,0,0,0,0
+0,0,0,0,0,0,0,0,k,k,k,k,0,0,0,0
+0,0,0,0,0,0,0,0,0,k,k,k,0,c,0,0
+0,0,b,0,0,b,0,0,0,0,k,k,0,d,0,0
+0,0,0,0,0,0,0,0,0,0,k,k,0,f,0,0
+0,0,0,0,0,0,0,0,0,0,k,k,0,0,0,0
+e,e,e,e,e,e,e,e,e,e,k,k,e,e,e,e
+NAME graveyard 2
+EXT 0,8 0 15,8
+EXT 0,9 0 15,9
+EXT 10,15 2 10,0
+EXT 11,15 2 11,0
+PAL 0
+TUNE 3
+
+ROOM 2
+0,0,0,0,0,0,0,0,0,0,k,k,0,0,0,0
+0,g,j,0,0,0,0,0,0,0,k,k,0,0,c,0
+0,h,i,0,0,0,0,0,0,0,k,k,0,0,d,0
+0,0,0,0,0,0,0,0,0,k,k,k,0,0,f,0
+0,0,0,0,0,0,0,0,k,k,k,k,0,0,0,0
+0,c,0,0,0,0,k,k,k,k,k,0,0,0,0,0
+0,d,0,0,0,k,k,k,k,k,0,0,0,0,0,0
+0,f,0,0,0,k,k,k,0,0,0,0,0,0,0,0
+0,0,0,0,0,k,k,0,0,0,0,0,0,0,0,0
+e,e,e,0,0,k,k,0,0,e,e,e,e,e,e,e
+0,0,0,0,0,k,k,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,k,k,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME graveyard 3
+EXT 10,0 1 10,15
+EXT 11,0 1 11,15
+PAL 0
+TUNE 3
 
 TIL b
 00000000
@@ -160,6 +204,17 @@ TIL j
 NAME tree 2-4
 WAL true
 
+TIL k
+00000000
+00111000
+00110000
+01000110
+00000000
+10110010
+00111000
+00000000
+NAME path
+
 SPR A
 00000000
 00111100
@@ -217,7 +272,7 @@ SPR c
 00011100
 NAME flowers3
 DLG 5
-POS 0 11,6
+POS 1 7,5
 
 SPR d
 00000000
@@ -232,6 +287,28 @@ NAME pc grave
 DLG 6
 POS 0 8,5
 
+SPR e
+00000000
+00111100
+01100110
+01000010
+11100110
+00111100
+01111110
+11011101
+>
+00111100
+01100110
+01000010
+11100110
+00111100
+01111110
+11011101
+00000000
+NAME grim
+DLG 7
+POS 2 8,11
+
 ITM 1
 00000000
 00100010
@@ -244,24 +321,28 @@ ITM 1
 NAME key
 
 DLG 0
-Seems like the family left some flowers.
+Seems like the family left some flowers.{tune "3"}
 NAME flower dialog
 
 DLG 3
- Seems like the family left some flowers.
+Seems like the family left some flowers.{tune "3"}
 NAME flower dialogue
 
 DLG 4
- Seems like the family left some flowers.
+Seems like the family left some flowers.{tune "3"}
 NAME flowers2 dialog
 
 DLG 5
-Seems like the family left some flowers.
+Seems like the family left some flowers.{tune "3"}
 NAME flowers3 dialog
 
 DLG 6
-...This grave has my name on it.
+...This grave has my name on it.{tune "3"}
 NAME pc grave dialog
+
+DLG 7
+{drws "grim"} "{wvy}Hello, little spirit. Are you ready to go?{/wvy}"{pg}{drws "A"} "Go..? Go where?"{pg}{drws "grim"} "{wvy}The Afterlife, of course. That's where all spirits go after death.{/wvy}"{pg}{drws "A"} "So then it's true? I'm... dead?"{pg}{drws "grim"} "{wvy}I'm afraid so, little spirit.{/wvy}"{pg}{drws "A"} "But how? Why? What happened?"{pg}{drws "grim"} "{wvy}That is up to you to recall, my friend.{/wvy}" {pg}{drws "grim"} "{wvy}As the Grim Reaper, I am only a means to reach the Afterlife.{/wvy}" {pg}{drws "grim"} "{wvy}Come with me. You will regain your memories over time; everyone does.{/wvy}" {pg}I get the feeling that I don't really have a choice but to follow Grim. {pg}Even though I'm unsettled by his words, he exudes a trustworthy and kind demeanor.  {pg}{end}And so, I follow him as we start our walk to the Afterlife.
+NAME grim dialog
 
 VAR a
 42
@@ -313,29 +394,29 @@ TMP FST
 SQR P4 P2
 
 TUNE 3
-3F5,0,0,A#,0,2C#5,0,A#,3F5,0,0,F#5,0,0,2F5,0
-A#3,C#,F,0,0,F,C#,F,A#3,C#,F,A#,0,A#,C#,F
+3F,0,0,A#,0,2C#,0,A#,3F,0,0,F#,0,0,2F,0
+A#2,C#2,F2,0,0,F2,C#2,F2,A#2,C#2,F2,A#2,0,A#2,C#2,F2
 >
-3F5,0,0,A,0,2C#5,0,A,3F5,0,0,2A#5,0,A#,D#5,0
-A3,C#,F,A3,0,F,C#,F,A,C#,F,0,D#,0,C#5,0
+3F,0,0,A,0,2C#,0,A,3F,0,0,2A#,0,A#,D#,0
+A2,C#2,F2,A2,0,F2,C#2,F2,A2,C#2,F2,0,D#2,0,C#2,0
 >
-4F5,0,0,0,G#,2C#5,0,G#,3F5,0,0,D#5,0,F5,2C#5,0
-G#3,C#,F,3F#,0,0,2F,0,G#3,C#,F,F#,B,A,F,D#
+4F,0,0,0,G#,2C#,0,G#,3F,0,0,D#,0,F,2C#,0
+G#2,C#2,F2,3F#2,0,0,2F2,0,G#2,C#2,F2,F#2,B2,A2,F2,D#2
 >
-4D#5,0,0,0,0,0,2A#,0,4A#,0,0,0,0,0,A#,C5
-G3,D#,F,G,0,D#,F,G,G3,D#,G,F,0,F,D#,C#3
+4D#,0,0,0,0,0,2A#,0,4A#,0,0,0,0,0,A#,C5
+G3,D#2,F2,G,0,D#2,F2,G,G3,D#2,G,F2,0,F2,D#2,C#2
 >
-4C#5,0,0,0,0,0,2C#5,0,3C#5,0,0,D#5,0,0,2C#5,0
-F#2,C#,F#3,A#3,0,F#3,C#3,F#3,F#2,A,F#3,C#,0,F#3,A3,F#3
+4C#,0,0,0,0,0,2C#,0,3C#,0,0,D#,0,0,2C#,0
+F#2,C#2,F#2,A#2,0,F#2,C#2,F#2,F#2,A2,F#2,C#2,0,F#2,A2,F#2
 >
-3C#5,0,0,F,3C5,0,0,C,3C5,0,0,D#,3A#,0,0,0
-F2,D#3,A3,0,0,F3,C#,0,F#2,A#3,D#3,0,0,F#3,C#,C
+3C#,0,0,F,3C5,0,0,C,3C5,0,0,D#,3A#,0,0,0
+F2,D#2,A2,0,0,F2,C#2,0,F#2,A#2,D#2,0,0,F#2,C#2,C
 >
-3A#,0,0,0,C5,0,C#5,0,A#,0,C#,D#,G#,G#3,0,C#3
-C3,A#3,C,E,A,0,A#,0,0,B2,B3,0,2F,0,0,0
+3A#,0,0,0,C5,0,C#,0,A#,0,C#,D#,G#,G#,0,C#
+C3,A#2,C,E2,A2,0,A#2,0,0,B2,B2,0,2F2,0,0,0
 >
-A#,0,A#3,0,C#,0,F,0,A#,0,0,0,0,0,0,0
-A#2,0,C#3,0,F3,0,A#3,0,D,0,0,0,0,F#3,0,F3
+A#,0,A#,0,C#,0,F,0,A#,0,0,0,0,0,0,0
+A#2,0,C#2,0,F2,0,A#2,0,D,0,0,0,0,F#2,0,F2
 NAME rhythmic ruins
 TMP MED
 SQR P4 P4
@@ -12101,6 +12182,7 @@ CHAR 9835
 011011
 011000
 000000
+</script>
 </script>
 
 </head>
