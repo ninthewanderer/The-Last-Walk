@@ -16,7 +16,7 @@
 
 [//]: # (Assignment description)
   <p align="center"> 
-  ──── .✦ <img src="bitsy.png" width="50" height="50"> ✦. ──── <br><br>
+  ──── .✦ <img src="purple_bitsy.png" width="35" height="35"> ✦. ──── <br><br>
   This is a short web adventure game made in the <a href="https://www.bitsy.org">Bitsy</a> editor for <br> DIG4715 (Game Production).
     <br><br>
       <img src="https://img.itch.zone/aW1hZ2UvNDIwNzg4Ni8yNTA3NzMwNS5qcGc=/347x500/lrqk7F.jpg"> 
@@ -49,5 +49,5 @@
     <br>
  
   <p align="center"> 
-    ──── .✦ <img src="bitsy.png" width="50" height="50"> ✦. ────
+    ──── .✦ <img src="purple_bitsy.png" width="35" height="35"> ✦. ────
   </p>
